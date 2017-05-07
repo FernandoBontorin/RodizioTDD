@@ -1,29 +1,30 @@
+package tdd.rodizio.test;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tdd.rodizio.test;
 
-import tdd.rodizio.entities.impl.Placa;
-import tdd.rodizio.entities.Dia;
-import tdd.rodizio.entities.DiaFactory;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import tdd.rodizio.entities.Dia;
+import tdd.rodizio.entities.DiaFactory;
+import tdd.rodizio.entities.impl.Placa;
 
 /**
  *
  * @author Fernando Bontorin, 31568343 <fernandorbontorin@gmail.com>
  */
-public class RodizioTest {
+public class RodizioTeste {
 
     Dia d;
 
-    public RodizioTest() {
+    public RodizioTeste() {
     }
 
     @BeforeClass
